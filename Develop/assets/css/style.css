@@ -9,7 +9,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
 /*We delete the class header to add the semantic HTML element instead of a header class in div*/
 header {
     padding: 20px;
@@ -108,57 +107,18 @@ p {
     color: #ffffff;
 }
 
-/*
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
 /*Again, since all three classes were aimed at h3 inside the now merged benefit class, they were all merged into 1*/
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
 /*Did the same for img and merged them into 1*/
-
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
 
 /*Again, the 3 classes were merged into 1*/
 .search{
@@ -170,57 +130,16 @@ p {
     color: #ffffff;
 }
 
-/*
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
 /*As search class was merged, we also merged img*/
 .search img {
     max-height: 200px;
 }
-
-/*
-.online-reputation-management img {
-    max-height: 200px;
-}
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
 
 /*As search class was merged, we also merged img*/
 .search h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-/*
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
 
 /*We delete the class footer to add the semantic HTML element instead of a footer class in div*/
 footer {
