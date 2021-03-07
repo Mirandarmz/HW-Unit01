@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/*Sets background color of all body*/
 body {
     background-color: #d9dcd6;
 }
@@ -17,11 +18,13 @@ header {
     color: #ffffff;
 }
 
+/*Changes display and font-size of all h1 elements inside a header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Changes color of every class seo declared inside an h1 inside a header*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -46,15 +49,18 @@ header section ul li {
     margin-left: 25px;
 }
 
+/*Changes color and eliminates underline of every a element in the document*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Changes font-size of every p element in the document*/
 p {
     font-size: 16px;
 }
 
+/*In the HTML added the attribute "Title" to replace the function of the alt altribute on the background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*Class made to be called every time we desire an element to be floating left with a 25px margin*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Class made to be called every time we desire an element to be floating right with a 25px margin*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Class aiming to change the width, display and margin of the section it is used in*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Class defining multiple elements of the section for which it is called*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,11 +101,14 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Class made to be called every time we desire an element to have a 32px margin bpttpm and color*/
+/*Since the benefit lead, benefit brand and benefit cost had the same attributes, they were merged into a single class*/
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,12 +118,15 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+/*Again, since all three classes were aimed at h3 inside the now merged benefit class, they were all merged into 1*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -120,13 +136,17 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+/*Did the same for img and merged them into 1*/
+
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -138,8 +158,10 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-.search-engine-optimization {
+/*Again, the 3 classes were merged into 1*/
+.search{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,6 +170,7 @@ p {
     color: #ffffff;
 }
 
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -165,24 +188,29 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-.search-engine-optimization img {
+/*As search class was merged, we also merged img*/
+.search img {
     max-height: 200px;
 }
 
+/*
 .online-reputation-management img {
     max-height: 200px;
 }
-
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
-.search-engine-optimization h2 {
+/*As search class was merged, we also merged img*/
+.search h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -192,6 +220,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 /*We delete the class footer to add the semantic HTML element instead of a footer class in div*/
 footer {
