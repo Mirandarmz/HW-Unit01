@@ -8,23 +8,26 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+
+/*We delete the class header to add the semantic HTML element instead of a header class in div*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*Unnecesary div selector deleted and replaced with section*/
+header section{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +35,13 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+/*Unnecesary div selector deleted and replaced with section*/
+header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/*Unnecesary div selector deleted and replaced with section*/
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -188,13 +193,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*We delete the class footer to add the semantic HTML element instead of a footer class in div*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
